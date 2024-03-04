@@ -28,7 +28,7 @@ import CategoryDetails from './components/CategoryDetails/CategoryDetails';
 
 const router =createBrowserRouter([
   {path:'',element:<Layout/>,children:[
-    {path:'',element:<Home/>},
+    {path:'',element:<ProtectedRoute><Home/></ProtectedRoute>},
     {path:'home',element:<ProtectedRoute><Home/></ProtectedRoute>},
     {path:'product',element:<ProtectedRoute><Products/></ProtectedRoute>},
     {path:'category',element:<ProtectedRoute><Category/></ProtectedRoute>},
