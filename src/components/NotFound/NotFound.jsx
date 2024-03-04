@@ -12,11 +12,9 @@ export default function NotFound() {
         </Helmet>
   
     <div>
-      <Navbar/>
-      <div className='d-flex justify-content-center align-items-center fw-bold'>
+      <div className=' d-flex vh-100 justify-content-center align-items-center fw-bold'>
       NotFound
       </div>
-      <Footer/>
     </div>
     </>)
 }
